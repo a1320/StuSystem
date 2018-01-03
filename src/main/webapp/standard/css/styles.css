@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	width: 1300px;
+	margin: 10px auto;
+	border-spacing: 0;
+}
+
+#page {
+	width: 1300px;
+	margin: 10px auto;
+}
+
+table caption {
+	padding: 10px 0;
+	background: #CCC;
+	font-weight: bold;
+}
+
+table th, table td {
+	padding: 35px;
+}
+
+table tbody tr {
+	cursor: pointer;
+	transition: background 0.3s;
+}
+
+table tbody tr.light {
+	background: #ECECEC;
+}
+
+table tbody tr:hover {
+	background: #CCC;
+}
+
+table tbody td {
+	text-align: center;
+}
+
+table tfoot td input {
+	border: 1px solid #000;
+	background: #FFF;
+	color: #000;
+	transition: background 0.3s, color 0.3s;
+	cursor: pointer;
+	padding: 5px 10px;
+}
+
+table tfoot td input:hover {
+	border: 1px solid #FFF;
+	background: #000;
+	color: red;
+}
+
+
+/*鼠标没有放上时*/
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+/*鼠标放上时*/
+a:hover {
+	background: #000;
+	color: red;
+	/*text-decoration: underline;*/
+}
+/*鼠标已经单击过时*/
+a:visited {
+	color: #BF3EFF;
+	font-size: 20px;
+}
